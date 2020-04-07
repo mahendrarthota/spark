@@ -1,22 +1,17 @@
 <project>
   <!-- model version - always 4.0.0 for Maven 2.x POMs -->
   <modelVersion>4.0.0</modelVersion>
-
- 
   <groupId>edu.ucsb.cs56.w16.sparkjava</groupId>
   <artifactId>HelloSpark</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
-
   <name>HelloSpark</name>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- maven-compiler-plugin , aka JAVA Compiler 1.7 -->
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
   </properties>
-  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -29,7 +24,6 @@
 <groupId>org.sonarsource.scanner.maven</groupId>
 <artifactId>sonar-maven-plugin</artifactId>
 <version>3.2</version>
-
 </dependency>
     <dependency>
       <groupId>com.sparkjava</groupId>
@@ -37,7 +31,6 @@
       <version>2.2</version>
     </dependency>
   </dependencies>
-
 <profiles>
 <profile>
 <id>sonar</id>
@@ -49,11 +42,9 @@
 <sonar.host.url>http://localhost:9000</sonar.host.url>
 <sonar.login>5240c44f4271fff016a42779353214e2af79cf24</sonar.login>
  <sonar.projectName>Another project without using sonar plugin</sonar.projectName>
-
 </properties>
 </profile>
 </profiles>
-
   <build>
     <plugins>
       <plugin>
@@ -71,6 +62,4 @@
       </plugin>
     </plugins>
   </build>
-
-
 </project>
