@@ -41,7 +41,11 @@
 <!-- Optional URL to server. Default value is http://localhost:9000 -->
 <sonar.host.url>http://localhost:9000</sonar.host.url>
 <sonar.login>5240c44f4271fff016a42779353214e2af79cf24</sonar.login>
+<<<<<<< HEAD
  <sonar.projectName>project using  pipeline to restrict the build </sonar.projectName>
+=======
+ <sonar.projectName>project analaysis using pipeline to restrict the build</sonar.projectName>
+>>>>>>> f8e7c1d57b65692a8e126ae5117e3b617c0b38b2
 </properties>
 </profile>
 </profiles>
