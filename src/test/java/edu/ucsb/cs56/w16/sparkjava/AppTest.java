@@ -17,7 +17,7 @@ public class AppTest
      */
     public AppTest( String testName )
     {
-        super( test );
+        super( testName );
     }
 
     /**
@@ -25,7 +25,7 @@ public class AppTest
      */
     public static Test suite()
     {
-        return new TestSuite( App.class );
+        return new TestSuite( AppTest.class );
     }
 
     /**
@@ -33,6 +33,6 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( fasle );
+        assertTrue( true );
     }
 }
