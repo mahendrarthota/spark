@@ -8,6 +8,11 @@ public class SparkHello {
 get("/hello", (req, res) -> "Hello World");
 get("/hello", (req, res) -> "Hello World");
 get("/hello", (req, res) -> "Hello World");
+int a=10;
+int a;
+int a;
+int b;
+int b;
     }
 
 }
