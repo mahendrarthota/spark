@@ -6,4 +6,13 @@ public class SparkHello {
     public static void main(String[] args) {
         get("/hello", (req, res) -> "Hello World");
     }
+public static void main(String[] args) {
+        get("/hello", (req, res) -> "Hello World");
+    }
+public static void main(String[] args) {
+        get("/hello", (req, res) -> "Hello World");
+    }
+public static void main(String[] args) {
+        get("/hello", (req, res) -> "Hello World");
+    }
 }
