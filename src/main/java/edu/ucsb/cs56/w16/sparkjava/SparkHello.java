@@ -9,10 +9,10 @@ get("/hello", (req, res) -> "Hello World");
 get("/hello", (req, res) -> "Hello World");
 get("/hello", (req, res) -> "Hello World");
 int a=10;
-int a;
-int a;
-int b;
-int b;
+int b=10;
+int c=a+b;
+c=a+b;
+c=a+b;
     }
 
 }
