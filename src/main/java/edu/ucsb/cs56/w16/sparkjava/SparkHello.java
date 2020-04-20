@@ -14,9 +14,15 @@ int a=10;
 int b=10;
 int c=a+b;
 int d=a-b;
-  //BufferedReader br = new BufferedReader(new FileReader("D:\\test.txt"));
-    //    System.out.println(br.readLine());
-
+  try
+{
+BufferedReader br = new BufferedReader(new FileReader("D:\\test.txt"));
+        System.out.println(br.readLine());
+}
+catch(Exception e)
+{
+   System.out.print("Exception Caught+e");
+}
 System.out.println("Addition is "+c);
 System.out.println("substraction is "+d);
 
