@@ -8,39 +8,6 @@ public class SparkHello {
     public static void main(String[] args) {
         
 get("/hello", (req, res) -> "Hello World");
-get("/hello", (req, res) -> "Hello World");
-get("/hello", (req, res) -> "Hello World");
-int a=10;
-int b=10;
-int c=a+b;
-int d=a-b;
-  try
-{
-BufferedReader br = new BufferedReader(new FileReader("D:\\test.txt"));
-        System.out.println(br.readLine());
-}
-catch(Exception e)
-{
-   System.out.print("Exception Caught+e");
-}
-System.out.println("Addition is "+c);
-System.out.println("substraction is "+d);
 
-String ptr = null; 
-  
-        // Checking if ptr.equals null or works fine. 
-        try
-        { 
-            // This line of code throws NullPointerException 
-            // because ptr is null 
-            if (ptr.equals("gfg")) 
-                System.out.print("Same"); 
-            else 
-                System.out.print("Not Same"); 
-        } 
-        catch(NullPointerException e) 
-        { 
-            System.out.print("NullPointerException Caught"); 
-        }
     }
 }
