@@ -13,7 +13,7 @@ int a=10;
 int b=10;
 int c=a+b;
 int d=a-b;
-  BufferedReader br = new BufferedReader(new FileReader("C:\\test.txt"));
+  /*BufferedReader br = new BufferedReader(new FileReader("C:\\test.txt"));
         System.out.println(br.readLine());
 
 System.out.println("Addition is "+c);
@@ -34,7 +34,7 @@ String ptr = null;
         catch(NullPointerException e) 
         { 
             System.out.print("NullPointerException Caught"); 
-        } 
+        }
+*/ 
     }
-
 }
