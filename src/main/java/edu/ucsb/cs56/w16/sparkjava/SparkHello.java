@@ -33,7 +33,7 @@ String ptr = null;
         { 
             // This line of code throws NullPointerException 
             // because ptr is null 
-            if ("gfg".equals(ptr)) 
+            if (ptr.equals("gfg")) 
                 System.out.print("Same"); 
             else 
                 System.out.print("Not Same"); 
