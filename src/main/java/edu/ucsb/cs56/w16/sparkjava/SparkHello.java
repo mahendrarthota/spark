@@ -2,7 +2,8 @@ package edu.ucsb.cs56.w16.sparkjava;
 
 import static spark.Spark.*;
 import java.io.*; 
-
+import java.awt;
+import java.sql;
 public class SparkHello {
     public static void main(String[] args) {
         
@@ -13,7 +14,7 @@ int a=10;
 int b=10;
 int c=a+b;
 int d=a-b;
-  /*BufferedReader br = new BufferedReader(new FileReader("C:\\test.txt"));
+  BufferedReader br = new BufferedReader(new FileReader("C:\\test.txt"));
         System.out.println(br.readLine());
 
 System.out.println("Addition is "+c);
@@ -26,7 +27,7 @@ String ptr = null;
         { 
             // This line of code throws NullPointerException 
             // because ptr is null 
-            if (ptr.equals("gfg")) 
+            if ("gfg".equals(ptr)) 
                 System.out.print("Same"); 
             else 
                 System.out.print("Not Same"); 
@@ -35,6 +36,5 @@ String ptr = null;
         { 
             System.out.print("NullPointerException Caught"); 
         }
-*/ 
     }
 }
