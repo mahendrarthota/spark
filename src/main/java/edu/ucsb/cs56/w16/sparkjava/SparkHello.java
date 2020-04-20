@@ -17,7 +17,7 @@ int d=a-b;
         System.out.println(br.readLine());
 
 System.out.println("Addition is "+c);
-system.out.println("substraction is "+d);
+System.out.println("substraction is "+d);
 
 String ptr = null; 
   
